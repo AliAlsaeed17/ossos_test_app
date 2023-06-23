@@ -1,3 +1,4 @@
 class AppRoutes {
-  static const homeScreenRoute = '/';
+  static const splashScreenRoute = '/';
+  static const homeScreenRoute = '/home';
 }
