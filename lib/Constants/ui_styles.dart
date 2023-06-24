@@ -29,3 +29,4 @@ final normalInputStyle = InputDecoration(
 
 //Border Radius
 const raduis15 = BorderRadius.all(Radius.circular(15));
+const raduis211 = BorderRadius.all(Radius.circular(211));
