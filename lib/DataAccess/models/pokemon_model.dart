@@ -4,7 +4,7 @@ class Pokemon {
 
   Pokemon({required this.name, required this.imageUrl});
 
-  factory Pokemon.fromJson(Map<String, dynamic> json) {
+  factory Pokemon.fromMap(Map<String, dynamic> json) {
     return Pokemon(
       name: json['name'],
       imageUrl: json['sprites']['front_default'],
