@@ -10,8 +10,12 @@ class UIColors {
   //Text Colors
   static const lightNormalText = Color.fromRGBO(0, 0, 0, 0.47);
   static const warningText = Color(0xffE11E1E);
-  //Border colors
+  //Border Colors
   static const textFieldBorder = Color(0xff8F8989);
-  //Icon colors
+  //Icon Colors
   static const warningIconColor = Color(0xffE11E1E);
+  //Shadow Colors
+  static const containerShadow = Color.fromRGBO(0, 0, 0, 0.25);
+  //Container Colors
+  static const containrBackground = Color(0xffD9D9D9);
 }
