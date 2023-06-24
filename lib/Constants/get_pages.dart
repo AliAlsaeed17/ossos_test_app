@@ -2,7 +2,9 @@ import 'package:get/get.dart';
 import 'package:ossos_test_app/Bussiness/bindings/home_binding.dart';
 import 'package:ossos_test_app/Bussiness/bindings/init_binding.dart';
 import 'package:ossos_test_app/Constants/get_routes.dart';
+import 'package:ossos_test_app/Presentation/animations_screen.dart';
 import 'package:ossos_test_app/Presentation/home_screen.dart';
+import 'package:ossos_test_app/Presentation/pokemons_screen.dart';
 import 'package:ossos_test_app/Presentation/splash_screen.dart';
 
 List<GetPage<dynamic>> getPages = [
@@ -15,5 +17,13 @@ List<GetPage<dynamic>> getPages = [
     name: AppRoutes.homeScreenRoute,
     page: () => HomeScreen(),
     binding: HomeBindings(),
+  ),
+  GetPage(
+    name: AppRoutes.animationScreenRoute,
+    page: () => AnimationsScreen(),
+  ),
+  GetPage(
+    name: AppRoutes.pokemonsScreenRoute,
+    page: () => PokemonsScreen(),
   ),
 ];
