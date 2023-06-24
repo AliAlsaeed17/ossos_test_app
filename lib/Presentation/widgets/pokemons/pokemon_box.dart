@@ -45,13 +45,16 @@ class PokemonBox extends StatelessWidget {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
-            child: Align(
-              alignment: Alignment.topLeft,
-              child: Text(
-                pokemon.name,
-                style: UITextStyles.normalTextStyle,
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+              child: Align(
+                alignment: Alignment.topLeft,
+                child: Text(
+                  pokemon.name,
+                  overflow: TextOverflow.ellipsis,
+                  style: UITextStyles.normalTextStyle,
+                ),
               ),
             ),
           ),

@@ -34,6 +34,7 @@ class AnimationsScreen extends StatelessWidget {
                 children: [
                   Text(
                     name,
+                    overflow: TextOverflow.ellipsis,
                     style: UITextStyles.normalTextStyle,
                   ),
                   spacerHeight(height: 60),
