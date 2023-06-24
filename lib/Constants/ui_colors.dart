@@ -4,7 +4,7 @@ class UIColors {
   //Solid colors
   static const black = Colors.black;
   static const white = Colors.white;
-  static const dartBlue = Color(0xff0D47A1);
+  static const darkBlue = Color(0xff0D47A1);
   static const lightBlue = Color(0xff63B2F2);
   static const lightRed = Color(0xffF26363);
   //Text Colors
